@@ -3,8 +3,8 @@ var mongoose = require('mongoose'),
 
 var empleadoSchema = new Schema({
 	nombre: { type: String },
-	apellido: { type: String },
-	edad: { type: Number },
+	apellido: { type: String },	
+	edad: { type: Number }, //TODO:Modificar por fecha de nacimiento y calcular edad en la interfaz de usuario
 	genero: { type: String }
 });
 
